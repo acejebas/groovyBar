@@ -26,6 +26,7 @@
   background-size: cover;
   background-position: center;
   width: 5vw;
+  display: block;
   }
   .main-content {
   flex: 1;
@@ -94,12 +95,12 @@
   text-align: center;
   }
   section.hero h2 {
-   font-size: 3rem;
-   letter-spacing: 4px;
-   text-shadow: -3px -4px 0 rgb(0, 0, 0),  
-   3px -3px 0 rgb(0, 0, 0),
+  font-size: 3rem;
+  letter-spacing: 4px;
+  text-shadow: -3px -4px 0 rgb(0, 0, 0),  
+  3px -3px 0 rgb(0, 0, 0),
   -3px  3px 0 rgb(0, 0, 0),
-   3px  3px 0 rgb(0, 0, 0);
+  3px  3px 0 rgb(0, 0, 0);
   bottom: 25%;
   right: 0%;
   position: absolute;
@@ -129,7 +130,6 @@
     width: 100%;
   }
   #ambiente {
-  
   border-radius: 20px;
   font-size: 2rem;
   margin-bottom: 20px;
@@ -150,55 +150,146 @@
   font-weight: 400;
   font-style: normal;
   }
-div.main-content {
-    background-image: url( "imagens/groovyfundo\ .jpg");
-    background-size: cover;
-}
-.imagem img:hover {
-    transform: scale(1.5);
-    z-index: 6;
-    margin: 30px;
-}
-.imagem img{
-    width: 300px ;
-    height: 400px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  
-}
-.imagem {
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    height: 600px;
-}
-.polaroid { 
+  div.main-content {
+  background-image: url( "imagens/groovyfundo\ .jpg");
+  background-size: cover;
+  }
+  .imagem img:hover {
+  transform: scale(1.5);
+  z-index: 6;
+  margin: 30px;
+  }
+  .imagem img{
+  width: 300px ;
+  height: 400px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+  }
+  .imagem {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  }
+  .polaroid { 
   margin-bottom: 100px;
   background-color: whitesmoke;
   padding: 10px 10px 80px 10px;
-}
-.imagem1{
- position: absolute;
- left: 57%;
-border: 1px solid black;
-z-index: 2;
-}
-.imagem2{
+  }
+  #imagem1{
+  position: absolute;
+  left: 57%;
+  border: 1px solid black;
+  z-index: 2;
+  }
+  #imagem2{
   position: absolute;
   left: 50%;
   border: 1px solid black;
   z-index: 3;
-}
-.imagem3{
- position: absolute;
+  }
+  #imagem3{
+  position: absolute;
   left: 40%;
   border: 1px solid black;
   z-index: 4;
-}
-.imagem4{
+  }
+  #imagem4{
   position: absolute;
   left: 30%;
   border: 1px solid black;
   z-index: 5;
+  }
+  .icone {
+  transform: none !important; 
+  height:60px !important; 
+  width:60px !important; 
+  z-index: 6 !important; 
+  position: fixed;
+  background-color: #fff;
+  border-radius: 50% !important;
+  }
+  .zoom{
+    position: fixed;
+    top: 20%;
+    z-index: 10;
+    height: 700px !important;
+    width: 600px !important;
+  }
+  #icone1 {
+  left:1%;
+  top: 50%;
+  }
+  #icone2 {
+  right: 1%;
+  top: 50%;
+  }
+  #X {
+    top: 14%;
+    z-index: 10 !important;
+    right: 5.2% ;
+  }
+  #setas{
+    display: none;
+  }
+  /* ===================== CELULARES PEQUENOS ===================== */
+  @media(max-width: 480px){
+  }
+  @media (max-width: 600px){
+  }
+  /* ===================== CELULARES MÉDIOS ===================== */
+  @media (max-width: 768px){
+  .imagem img{
+    height: 500px;
+    width: 400px;
+    transform: none;
+    transition: none;
+  }
+  .zoom{
+   left:  11.2% !important;
+  }
+  .imagem img:hover {
+    transform: none;
+    margin: 0;
+  }
+  .imagem{
+    transition: none;
+  }
+  #imagem1{
+    left: 30%  !important;
+  }
+  #imagem2{
+    left: 25% !important;
+  }
+  #imagem3{
+    left: 20% !important;
+  }
+  #imagem4{
+    left: 15% !important;
+  }
+  }
+/* ===================== DESKTOP PEQUENO EM DIANTE ===================== */
+@media (max-width: 1025px){ 
+  .side-bg {
+   display: none; 
+  }
+  #imagem1{
+    left: 47%;
+  }
+  #imagem2{
+    left: 41%;
+  }
+  #imagem3{
+    left: 33%;
+  }
+  #imagem4{
+    left: 25%;
+  }
+}
+@media (min-width: 1280px){
+}
+@media (min-width: 1440px){
 }
