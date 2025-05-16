@@ -21,8 +21,6 @@ function esquerda() {
   if (imageIndex === 1) {
     imageIndex = 4;
     const item = document.getElementById(`imagem${imageIndex}`);
-    console.log(item);
-    
     document.getElementById(`imagem${imageIndex}`).className = "polaroid zoom";
   } else {
     imageIndex --;
@@ -36,8 +34,6 @@ function direita() {
   if (imageIndex === 4) {
     imageIndex = 1;
     const item = document.getElementById(`imagem${imageIndex}`);
-    console.log(item);
-    
     document.getElementById(`imagem${imageIndex}`).className = "polaroid zoom";
   } else {
     imageIndex ++;
