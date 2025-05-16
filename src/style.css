@@ -101,7 +101,7 @@
   3px -3px 0 rgb(0, 0, 0),
   -3px  3px 0 rgb(0, 0, 0),
   3px  3px 0 rgb(0, 0, 0);
-  bottom: 25%;
+  bottom: 14.5%;
   right: 0%;
   position: absolute;
   background: rgba(0, 0, 0, 0.185);
@@ -156,7 +156,7 @@
   }
   .imagem img:hover {
   transform: scale(1.5);
-  z-index: 6;
+  z-index: 10 !important;
   margin: 30px;
   }
   .imagem img{
