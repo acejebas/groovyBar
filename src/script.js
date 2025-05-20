@@ -16,27 +16,29 @@ function ZoomOut() {
 var imageIndex = 1;
 
 function esquerda() {
-  const zoomElement = document.querySelector(".zoom");
-  zoomElement.classList.remove("zoom");
+  const zoomElement = document.querySelectorAll(".zoom");
+  zoomElement.forEach((element) => {
+    element.classList.remove("zoom");
+  });
   if (imageIndex === 1) {
     imageIndex = 4;
-    const item = document.getElementById(`imagem${imageIndex}`);
     document.getElementById(`imagem${imageIndex}`).className = "polaroid zoom";
   } else {
-    imageIndex --;
+    imageIndex--;
     document.getElementById(`imagem${imageIndex}`).className = "polaroid zoom";
   }
 }
 
 function direita() {
-  const zoomElement = document.querySelector(".zoom");
-  zoomElement.classList.remove("zoom");
-  if (imageIndex === 4) {
+    const zoomElement = document.querySelectorAll(".zoom");
+    zoomElement.forEach((element) => {
+      element.classList.remove("zoom");
+    });
+  if (imageIndex === 4 && zoomElement) {
     imageIndex = 1;
-    const item = document.getElementById(`imagem${imageIndex}`);
     document.getElementById(`imagem${imageIndex}`).className = "polaroid zoom";
   } else {
-    imageIndex ++;
+    imageIndex++;
     document.getElementById(`imagem${imageIndex}`).className = "polaroid zoom";
   }
 }
