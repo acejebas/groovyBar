@@ -19,7 +19,7 @@
 <div class="side-bg">
   <nav>
     <a href="#home">Início</a>
-    <a href="evento.html">Eventos</a>
+    <a href="./src/evento.html">Eventos</a>
     <a href="#cardapio">Cardápio</a>
     <a href="#contato">Contato</a>
   </nav>
@@ -32,16 +32,17 @@
       <p>  O Groovy Bar é um espaço onde a arte urbana encontra a noite vibrante da cidade.
       Com uma decoração baseada em grafite e na cultura underground. </p>
       </div>
-    <div id="setas">
-      <img onclick="ZoomOut()" class="icone" id="X" src="./src/imagens/x.png " /> 
-      <img onclick="direita()" class="icone" id="icone1" src="./src/imagens/seta-esquerda.png " /> 
-      <img onclick="esquerda()" class="icone" id="icone2" src="./src/imagens/seta-direita (1).png " />
+     <div class="carrossel-drdz">
+    <img id="imagem-drdz" src="./src/imagens/estudio1.jpg" alt="Estúdio Drdz" />
+    <div class="descricao">
+      <h3 id="titulo-drdz">Estúdio do Prod.Drdz</h3>
+      <p id="descricao-drdz">
+        O Estúdio Prod.Drdz é onde batidas nascem. Com equipamentos profissionais...
+      </p>
     </div>
-    <div onclick="Zoom ()" class="imagem">
-      <img class="polaroid " id="imagem1" src="./src/imagens/entrada.jpg" alt="entranda"/>
-      <img class="polaroid " id="imagem2" src="./src/imagens/ambiente.jpg" alt= "ambiente de lazer " />
-      <img class="polaroid " id="imagem3"  src="./src/imagens/salao2.jpg" alt="salão"/>
-      <img class="polaroid " id="imagem4"  src="./src/imagens/ambiente3.jpg" alt="Bar"/>
+    <div class="botoes">
+      <button onclick="mudarSlide(-1)">❮</button>
+      <button onclick="mudarSlide(1)">❯</button>
     </div>
     <footer>
       &copy; 2025 Groovy Bar - Todos os direitos reservados.

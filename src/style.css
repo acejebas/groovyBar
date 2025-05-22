@@ -304,3 +304,102 @@ footer {
 }
 @media (min-width: 1440px) {
 }
+.carrossel-drdz {
+  background: linear-gradient(135deg, #111, #1a1a1a);
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0, 255, 170, 0.15);
+  overflow: hidden;
+  max-width: 900px;
+  margin: 60px auto;
+  animation: fadeIn 0.8s ease-in-out;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.carrossel-drdz img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-bottom: 2px solid #00ffaa44;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-drdz img:hover {
+  transform: scale(1.01);
+}
+
+.descricao {
+  padding: 24px 32px;
+  text-align: left;
+  line-height: 1.6;
+  background-color: #111;
+}
+
+.descricao h3 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #00ffaa;
+  font-family: "Heroes", sans-serif;
+}
+
+.descricao p {
+  font-size: 1.05rem;
+  color: #ccc;
+  font-family: "Rubik", sans-serif;
+}
+
+.botoes {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.botoes button {
+  pointer-events: all;
+  background: rgba(0, 255, 170, 0.8);
+  border: none;
+  color: #111;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 255, 170, 0.4);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.botoes button:hover {
+  background: #00e69a;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .descricao {
+    padding: 16px;
+  }
+
+  .descricao h3 {
+    font-size: 1.6rem;
+  }
+
+  .descricao p {
+    font-size: 0.95rem;
+  }
+
+  .botoes button {
+    font-size: 1.5rem;
+    width: 44px;
+    height: 44px;
+  }
+}
