@@ -7,7 +7,7 @@ const slidesDrdz = [
   {
     imagem: "e2.jpg",
     titulo: "Sala de Gravação",
-    descricao: "Equipado para gravações vocais e instrumentais, com isolamento acústico e qualidade profissional. Um espaço confortável para soltar sua melhor performance."
+    descricao: "Equipado para gravações vocais e instrumentais, com tratamento acústico e qualidade profissional. Um espaço confortável para soltar sua melhor performance."
   },
   {
     imagem: "e3.jpg",
@@ -18,11 +18,6 @@ const slidesDrdz = [
     
     O estúdio tem aquele clima chave, confortável, com tudo no esquema pra você se sentir à vontade e soltar sua melhor versão no mic ou na produção. Se tá querendo tirar seu som do papel e botar na pista com qualidade, já sabe… cola com nóis e vamo fazer acontecer!`
   },
-  {
-  imagem: "e4.jpg",
-  titulo: "Estúdio do Prod.Drdz",
-  descricao: "Aqui é onde a mágica acontece. Um estúdio completo para dar vida à sua arte com liberdade e qualidade sonora."
-  }
 ];
 
 let indexDrdz = 0;
