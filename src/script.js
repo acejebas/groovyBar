@@ -35,7 +35,53 @@ const slidesDrdz = [
     imagem: "b3.jpg",
     titulo: "Espaço do Bar",
     descricao: `O espaço do bar é projetado para proporcionar conforto e descontração. Com uma decoração única e um ambiente acolhedor, é o lugar ideal para se reunir com amigos e curtir a noite.`
-  }]
+  },
+  {
+    imagem: "b4.png",
+    titulo: "Ambiente do Bar",
+    descricao: "A Groovy é onde a arte urbana ganha vida e encontra seu público.",
+  },
+    {
+    imagem: "b5.jpg",
+    titulo: "Ambiente social",
+    descricao: "Aqui você curte a noite rodeado de arte, estilo e boas vibrações.",
+  },
+    {
+    imagem: "b6.jpg",
+    titulo: "Artistas",
+    descricao: "Do som ao traço: a Groovy conecta talentos e tribos.",
+  },
+    {
+    imagem: "b7.jpg",
+    titulo: "Ambiente do Bar",
+    descricao: "Um ambiente alternativo que foge do comum e inspira liberdade.",
+  },
+    {
+    imagem: "b8.jpg",
+    titulo: "Ambiente do Bar",
+    descricao: "A Groovy é feita de encontros que viram histórias.",
+  },
+    {
+    imagem: "b9.jpg",
+    titulo: "Espaço Bar",
+    descricao: "Aqui, a energia é crua, vibrante e cheia de personalidade.",
+  },
+    {
+    imagem: "b10.jpg",
+    titulo: "Ambiente Social",
+    descricao: "Criada para quem valoriza o diferente, o criativo e o real.",
+  },
+    {
+    imagem: "b11.jpg",
+    titulo: "Ambiente do Bar",
+    descricao: "Cada detalhe da Groovy carrega identidade e expressão.",
+  },
+    {
+    imagem: "b12.jpg",
+    titulo: "Espaço Social",
+    descricao: "Um ambiente alternativo que foge do comum e inspira liberdade.",
+  },
+]
 
 const slidesTatoo = [
   {

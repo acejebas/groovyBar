@@ -63,6 +63,7 @@ header {
   z-index: 2;
 }
 nav {
+  top: -1%;
   position: fixed;
   width: 100%;
   margin-top: 100px;
@@ -100,7 +101,7 @@ section.hero h2 {
   letter-spacing: 4px;
   text-shadow: -3px -4px 0 rgb(0, 0, 0), 3px -3px 0 rgb(0, 0, 0),
     -3px 3px 0 rgb(0, 0, 0), 3px 3px 0 rgb(0, 0, 0);
-  bottom: 14.5%;
+  bottom: -22%;
   right: 0%;
   position: absolute;
   background: rgba(0, 0, 0, 0.185);
@@ -129,11 +130,15 @@ footer {
 }
 
 #ambiente p {
-  width: 40%;
+  width: 75%;
+  padding: 0;
+  margin-inline: 0;
+  margin-block: 0;
+  line-height: 2rem;
 }
 
 #ambiente h2 {
-  width: 40%;
+  width: 80%;
 }
 
 #ambiente {
