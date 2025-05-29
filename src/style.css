@@ -151,7 +151,11 @@ footer {
 /* ===================== CELULARES PEQUENOS ===================== */
 @media (max-width: 480px) {
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
+  
+}
+/* ===================== CELULARES MÉDIOS ===================== */
+@media (max-width: 768px) {
   section.hero h2 {
     width: 100%;
     font-size: 1.3rem;
@@ -189,9 +193,6 @@ footer {
   #ambiente p {
     width: 100%;
   }
-}
-/* ===================== CELULARES MÉDIOS ===================== */
-@media (max-width: 768px) {
 }
 /* ===================== DESKTOP PEQUENO EM DIANTE ===================== */
 @media (max-width: 1150px) {
