@@ -1,10 +1,10 @@
 @font-face {
   font-family: "graffit";
-  src: url("fontes/textim.otf") format("opentype");
+  src: url("../fontes/textim.otf") format("opentype");
 }
 @font-face {
   font-family: "Heroes";
-  src: url("fontes/heros.otf") format("opentype");
+  src: url("../fontes/heros.otf") format("opentype");
 }
 * {
   margin: 0;
@@ -19,7 +19,7 @@ body {
 .side-bg {
   display: flex;
   justify-content: center;
-  background-image: url("imagens/lateral.png");
+  background-image: url("../imagens/lateral.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -30,7 +30,7 @@ body {
   flex-flow: column;
   width: 90%;
   background-color: #000;
-  background-image: url("imagens/groovyfundo.jpg");
+  background-image: url("../imagens/groovyfundo.jpg");
   background-size: cover;
   z-index: 1;
 }
@@ -58,7 +58,7 @@ header {
   justify-content: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("imagens/tijolo2.png");
+  background-image: url("../imagens/tijolo2.png");
   padding: 10px 0px;
   z-index: 2;
 }
@@ -82,7 +82,7 @@ nav a:hover {
   color: #ff0080;
 }
 section.hero {
-  background-image: url("imagens/bannergay.png");
+  background-image: url("../imagens/bannergay.png");
   background-size: cover;
   background-position: bottom;
   margin-top: 100px;
