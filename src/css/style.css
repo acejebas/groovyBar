@@ -217,7 +217,7 @@ footer {
   background: #1a1a1a;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0, 255, 170, 0.15);
-  max-width: 800px;
+  width: 90%;
   margin: 50px auto;
   overflow: hidden;
   position: relative;
@@ -227,7 +227,8 @@ footer {
   width: 100%;
   display: block;
   object-fit: cover;
-  max-height: 700px;
+  padding: auto;
+  height: 700px;
 }
 
 .descricao {
