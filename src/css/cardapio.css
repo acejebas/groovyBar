@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Arial Black', sans-serif;
+  background: url('../imagens/fundocardapio.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.menu {
+  background: rgba(0, 0, 0, 0.7);
+  max-width: 80%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #000;
+}
+
+section {
+  margin-top: 30px;
+}
+
+h2 {
+  color: #ff9900;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+span {
+  color: #ffcc00;
+}
